@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.7.0_79\bin\;C:\Program Files (x86)\Calibre2\;C:\Python34\Scripts\;C:\Python34\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;node_modules\npm\bin\;C:\Program Files\MongoDB\Server\3.2\bin\;C:\Users\Albert\AppData\Local\Android\sdk\platform-tools;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\PuTTY\;C:\ProgramData\chocolatey\bin;C:\tools\python2;C:\Users\Albert\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Amazon\AWSCLI\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Albert\AppData\Local\Programs\Git\cmd;C:\Users\Albert\AppData\Local\Programs\Git\mingw64\bin;C:\Users\Albert\AppData\Local\Programs\Git\usr\bin;C:\Program Files\heroku\bin;C:\Users\Albert\AppData\Local\Programs\Python\Python36\;C:\Ruby25-x64\bin;C:\Ruby23\bin;C:\Ruby23-x64\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.1.0\bin;C:\Ruby22-x64\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Albert\AppData\Local\Programs\Git\cmd;C:\Program Files\PostgreSQL\9.5\bin;C:\Program Files\PostgreSQL\9.5\lib;C:\Users\Albert\AppData\Local\Microsoft\WindowsApps;C:\MongoDB\bin;C:\Program Files\ipfs\go-ipfs;C:\Users\Albert\AppData\Roaming\nvm;C:\Users\Albert\AppData\Local\atom\bin;C:\Users\Albert\AppData\Local\Microsoft\WindowsApps;"C:\Users\Albert\AppData\Roaming\Python\Scripts;";"C:\Users\Albert\AppData\Local\Programs\Python\Python36\Scripts;";C:\Users\Albert\AppData\Local\Yarn\bin;C:\Users\Albert\AppData\roaming\Python\Python36\scripts;C:\Users\Albert\AppData\Roaming\npm;C:\Users\Albert\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\PostgreSQL\10\bin;;C:\Program Files\Docker Toolbox;C:\Users\Albert\AppData\Local\now-cli
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.0.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "sick-fits-backend",
+    "version": "1.0.0",
+    "description": "the backend of sick fits",
+    "scripts": {
+      "start": "nodemon -e js,graphql -x node src/index.js",
+      "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
+      "test": "jest",
+      "deploy": "prisma deploy --env-file variables.env"
+    },
+    "dependencies": {
+      "babel-preset-env": "^1.7.0",
+      "bcryptjs": "2.4.3",
+      "cookie-parser": "^1.4.3",
+      "dotenv": "6.0.0",
+      "graphql": "^0.13.2",
+      "graphql-cli": "^2.16.7",
+      "graphql-yoga": "1.16.2",
+      "jsonwebtoken": "8.3.0",
+      "nodemailer": "^4.6.8",
+      "nodemon": "^1.18.7",
+      "npm-run-all": "^4.1.5",
+      "prisma": "1.17.1",
+      "prisma-binding": "2.1.6",
+      "stripe": "^6.12.1"
+    },
+    "license": "MIT",
+    "repository": {
+      "url": "wesbos.com"
+    },
+    "babel": {
+      "presets": [
+        "env"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.3.tgz: ENOENT: no such file or directory, utime 'C:\Users\Albert\AppData\Local\Yarn\Cache\v1\npm-core-js-2.6.3-4b70938bdffdaf64931e66e2db158f0892289c49\fn\number\virtual\iterator.js'
